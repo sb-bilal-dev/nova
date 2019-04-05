@@ -1,0 +1,18 @@
+
+.DragAndDrop {
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr;
+}
+
+.DragAndDrop .DragAndDrop__item {
+  background: #fff;
+  box-shadow: 0 1px 2px 1px rgba(1, 1, 1, 0.2);
+  padding: 7px 20px;
+}
+
+.DragAndDrop .DragAndDrop__item__info h4,
+.DragAndDrop .DragAndDrop__item__info p {
+  padding: 3px 0;
+}

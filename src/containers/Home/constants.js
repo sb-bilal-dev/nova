@@ -1,0 +1,14 @@
+
+export const HOME_GET_PROJECTS_REQUEST = 'HOME_GET_PROJECTS_REQUEST'
+export const HOME_GET_PROJECTS_SUCCESS = 'HOME_GET_PROJECTS_SUCCESS'
+export const HOME_GET_PROJECTS_ERROR = 'HOME_GET_PROJECTS_ERROR'
+
+export const HOME_SET_COMMENT_REQUEST = 'HOME_SET_COMMENT_REQUEST'
+export const HOME_SET_COMMENT_SUCCESS = 'HOME_SET_COMMENT_SUCCESS'
+export const HOME_SET_COMMENT_ERROR = 'HOME_SET_COMMENT_ERROR'
+
+export const PROJ_TYPES = [
+  { value: 'website', label: 'Website' },
+  { value: 'other', label: 'Other' }
+]
+export const HOME_GET_PROJECT_INTERVAL = 20 * 1000
